@@ -1,7 +1,7 @@
 import React from "react";
-import PrarLabs from "/public/images/prar.png"
-import Zethic from "/public/images/zethic.png"
-import Placibo from "/public/images/placibo.png"
+import PrarLabs from "/images/png/prar.png"
+import Zethic from "/images/png/zethic.png"
+import Placibo from "/images/png/placibo.png"
 
 
 function TechnicalExperience() {

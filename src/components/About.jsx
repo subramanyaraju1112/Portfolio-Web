@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import SplitType from 'split-type';
-import ProfilePic from "/images/profile-pic.webp"
+import ProfilePic from "/images/webp/profile-pic.webp"
 gsap.registerPlugin(ScrollTrigger);
 
 function About() {
