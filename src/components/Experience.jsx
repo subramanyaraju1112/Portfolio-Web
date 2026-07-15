@@ -4,8 +4,7 @@ import PrarLabs from "../assets/images/png/prar-labs.png"
 import Zethic from "../assets/images/png/zethic.png"
 import Placibo from "../assets/images/png/placibo.png"
 
-
-function TechnicalExperience() {
+function Experience() {
   const works = [
     {
       title: "SDE",
@@ -82,4 +81,4 @@ function TechnicalExperience() {
   );
 }
 
-export default TechnicalExperience;
+export default Experience;

@@ -3,7 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
-import TechnicalExperience from "./components/TechnicalExperience";
+import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Connect from "./components/Connect";
 import { gsap } from "gsap";
@@ -76,7 +76,7 @@ function App() {
       <About />
       <Skills />
       <Work />
-      <TechnicalExperience />
+      <Experience />
       <Connect />
     </div>
   );
