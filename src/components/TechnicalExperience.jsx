@@ -1,5 +1,6 @@
 import React from "react";
-import PrarLabs from "../assets/images/png/prar.png"
+import C3ihub from "../assets/images/png/c3ihub.png"
+import PrarLabs from "../assets/images/png/prar-labs.png"
 import Zethic from "../assets/images/png/zethic.png"
 import Placibo from "../assets/images/png/placibo.png"
 
@@ -10,7 +11,7 @@ function TechnicalExperience() {
       title: "SDE",
       company: "C3i, IIT Kanpur",
       duration: "2024-Present",
-      logo: PrarLabs,
+      logo: C3ihub,
     },
     {
       title: "Software Engineer",

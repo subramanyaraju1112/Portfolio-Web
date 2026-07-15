@@ -72,7 +72,7 @@ function Work() {
             </div>
           </div>
         </a>
-        <a href="https://github.com/subramanyaraju1112/Qoruz" target="_blank">
+        <a href="https://hackathon.c3ihub.iitk.ac.in/" target="_blank">
           <div
             id="c3iarena-container"
             className="flex cursor-pointer flex-col items-start hover:scale-95"
@@ -98,7 +98,7 @@ function Work() {
             </div>
           </div>
         </a>
-        <a href="https://doctor.ausa.health/" target="_blank">
+        <a href="https://ausa.health/" target="_blank">
           <div
             className="flex cursor-pointer flex-col items-start hover:scale-95"
             id="ausa-container"
