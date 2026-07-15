@@ -5,10 +5,9 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaFilePdf } from "react-icons/fa";
 
 function Connect() {
-
   return (
-    <div className="connect-wrapper-main container relative mx-auto flex h-[100vh]  flex-col bg-[#e9e9e9] dark:bg-[#09090b]  text-black dark:text-white">
-      <div className="flex items-center justify-center overflow-hidden text-center spacer h-1/3">
+    <div className="connect-wrapper-main container relative mx-auto flex h-[100vh]  flex-col bg-[#e9e9e9] text-black  dark:bg-[#09090b] dark:text-white">
+      <div className="spacer flex h-1/3 items-center justify-center overflow-hidden text-center">
         <h1
           className=""
           id="scrollingText"
@@ -17,23 +16,26 @@ function Connect() {
             fontSize: "5vw",
             letterSpacing: "-1px",
           }}>
-          There’s no place like <span className="text-[#FF8080]">localhost:3000</span>,<br/> Let's build something special.
+          There’s no place like{" "}
+          <span className="text-[#FF8080]">localhost:3000</span>,<br /> Let's
+          build something special.
         </h1>
       </div>
       <div className="h-1/3">
         <h1
-          className="italic connect-text-main text-[#08dc90] dark:text-[#93ffcc] "
+          className="connect-text-main italic text-[#08dc90] dark:text-[#93ffcc] "
           style={{
             fontFamily: "Generator Bold",
             fontSize: "4vw",
             letterSpacing: "-1px",
           }}>
-          I would love to change the world, but they won’t give me the source code.
+          I would love to change the world, but they won’t give me the source
+          code.
         </h1>
       </div>
-      <div className="flex flex-col items-end justify-around w-full h-1/3">
+      <div className="flex h-1/3 w-full flex-col items-end justify-around">
         <h1
-          className="hover:underline flex gap-2 items-center connect-text-mail"
+          className="connect-text-mail flex items-center gap-2 hover:underline"
           style={{
             fontFamily: "Generator Bold",
             fontSize: "4.5vw",
@@ -47,22 +49,9 @@ function Connect() {
         </h1>
 
         <div className="flex w-full">
-          <div className="flex justify-around w-1/2 social-wrapper">
+          <div className="social-wrapper flex w-full justify-between">
             <h1
-              className="hover:underline flex gap-2 items-center"
-              style={{
-                fontFamily: "Generator Bold",
-                fontSize: "2vw",
-                letterSpacing: "-1px",
-                cursor: "pointer",
-              }}>
-              <FaXTwitter />
-              <a target="_blank" href="https://x.com/subramanya1112?t=ucms6E8zD_vdGXK3Acp7DA&s=09">
-                twitter ( X )
-              </a>
-            </h1>
-            <h1
-              className="hover:underline flex gap-2 items-center"
+              className="flex items-center gap-2 hover:underline"
               style={{
                 fontFamily: "Generator Bold",
                 fontSize: "2vw",
@@ -74,10 +63,9 @@ function Connect() {
                 github
               </a>
             </h1>
-          </div>
-          <div className="flex justify-around w-1/2 social-wrapper">
+
             <h1
-              className="hover:underline flex gap-2 items-center"
+              className="flex items-center gap-2 hover:underline"
               style={{
                 fontFamily: "Generator Bold",
                 fontSize: "2vw",
@@ -85,12 +73,14 @@ function Connect() {
                 cursor: "pointer",
               }}>
               <FaLinkedin />
-              <a href="https://www.linkedin.com/in/subramanya-raju-s-a0a143157/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/subramanya-raju-s-a0a143157/"
+                target="_blank">
                 linkedin
               </a>
             </h1>
             <h1
-              className="hover:underline flex gap-2 items-center"
+              className="flex items-center gap-2 hover:underline"
               style={{
                 fontFamily: "Generator Bold",
                 fontSize: "2vw",
@@ -99,14 +89,13 @@ function Connect() {
               }}>
               <FaFilePdf />
               <a
-                href="https://drive.google.com/file/d/1wvxBW3FOz1wqeh46trCUFIYGwGqcahI9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Gp6w3Zr6CV0F4WQtY8zlWEyW9P5RnAHZ/view?usp=sharing"
                 target="_blank">
                 cv
               </a>
             </h1>
           </div>
         </div>
-
       </div>
     </div>
   );
