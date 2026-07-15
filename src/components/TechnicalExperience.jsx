@@ -1,21 +1,27 @@
 import React from "react";
-import PrarLabs from "/images/png/prar.png"
-import Zethic from "/images/png/zethic.png"
-import Placibo from "/images/png/placibo.png"
+import PrarLabs from "../assets/images/png/prar.png"
+import Zethic from "../assets/images/png/zethic.png"
+import Placibo from "../assets/images/png/placibo.png"
 
 
 function TechnicalExperience() {
   const works = [
     {
       title: "SDE",
+      company: "C3i, IIT Kanpur",
+      duration: "2024-Present",
+      logo: PrarLabs,
+    },
+    {
+      title: "Software Engineer",
       company: "Prar Labs",
-      duration: "2024",
+      duration: "2023-24",
       logo: PrarLabs,
     },
     {
       title: "Frontend Developer",
       company: "Zethic LLP",
-      duration: "2023",
+      duration: "2022-23",
       logo: Zethic,
     },
     {

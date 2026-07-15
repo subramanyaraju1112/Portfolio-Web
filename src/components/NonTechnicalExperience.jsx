@@ -1,10 +1,10 @@
 import React from "react";
-import SmartCricket from "/images/png/smartcricket.png"
-import BFC from "/images/png/bfc.png"
-import DYES from "/images/png/dyes.png"
-import BB from "/images/png/bb.png"
-import RCB from "/images/png/rcb.png"
-import DNA from "/images/png/dna.png"
+import SmartCricket from "../assets/images/png/smartcricket.png"
+import BFC from "../assets/images/png/bfc.png"
+import DYES from "../assets/images/png/dyes.png"
+import BB from "../assets/images/png/bb.png"
+import RCB from "../assets/images/png/rcb.png"
+import DNA from "../assets/images/png/dna.png"
 
 
 function NonTechnicalExperience() {

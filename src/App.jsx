@@ -75,7 +75,7 @@ function App() {
       <About />
       <Work />
       <TechnicalExperience />
-      <NonTechnicalExperience />
+      {/* <NonTechnicalExperience /> */}
       <Connect />
     </div>
   );

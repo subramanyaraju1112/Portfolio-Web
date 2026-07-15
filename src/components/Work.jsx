@@ -1,39 +1,41 @@
 import React from "react";
-import Ausa from "../../public/images/webp/ausa-web.webp";
-import Dimaak from "../../public/images/webp/dimaak-web.webp";
-import Qoruz from "../../public/images/webp/qoruz-web.webp";
-import Netflix from "../../public//images/webp/netflix-web.webp";
+import Xpertzy from "../assets/images/webp/xpertzy.webp";
+import DDIA from "../assets/images/webp/ddia-admin.webp";
+import C3iArena from "../assets/images/webp/c3i-arena.webp";
+import Ausa from "../assets/images/webp/ausa.webp";
+
 import { RxArrowTopRight } from "react-icons/rx";
 
 function Work() {
   return (
-    <div className="container relative mx-auto flex w-[100vw] flex-col items-center justify-centerbg-[#e9e9e9] dark:bg-[#09090b]  text-black dark:text-white">
+    <div className="justify-centerbg-[#e9e9e9] container relative mx-auto flex w-[100vw] flex-col items-center text-black  dark:bg-[#09090b] dark:text-white">
       <h1
-        className="my-12 title"
+        className="title my-12"
         style={{
           fontFamily: "tth",
-          fontSize: "6vw", letterSpacing: "-3px"
+          fontSize: "6vw",
+          letterSpacing: "-3px",
         }}>
         Selected Work
       </h1>
 
       <div className="grid w-full grid-cols-1 gap-10 sm:grid-cols-2">
-        <a href="https://doctor.ausa.health/" target="_blank">
+        <a href="https://securityid.iitk.ac.in/auth" target="_blank">
           <div
-            className="flex flex-col items-start cursor-pointer hover:scale-95"
-            id="ausa-container"
+            id="ddia-container"
+            className="flex cursor-pointer flex-col items-start hover:scale-95"
             style={{ transitionDuration: "0.1s" }}>
             <img
               className="rounded-2xl hover:scale-95"
               style={{ transitionDuration: "0.1s" }}
-              src={Ausa}
-              alt="ausa"
+              src={DDIA}
+              alt="ddia"
             />
-            <div className="flex items-center justify-between w-full px-2 my-2">
+            <div className="my-2 flex w-full items-center justify-between px-2">
               <h1 className="" style={{ fontFamily: "PolySans" }}>
-                AUSA Health, 2024
+                DDIA Security Dashboard, 2025-26
               </h1>
-              <div id="ausa-arrow">
+              <div id="ddia-arrow">
                 <div className="flex items-center">
                   <h1 className="inline" style={{ fontFamily: "PolySans" }}>
                     View
@@ -44,22 +46,22 @@ function Work() {
             </div>
           </div>
         </a>
-        <a href="https://github.com/subramanyaraju1112/Dimaak" target="_blank">
+        <a href="https://xpertzy.in/" target="_blank">
           <div
-            id="dimaak-container"
-            className="flex flex-col items-start cursor-pointer hover:scale-95"
+            id="xpertzy-container"
+            className="flex cursor-pointer flex-col items-start hover:scale-95"
             style={{ transitionDuration: "0.1s" }}>
             <img
               className="rounded-2xl hover:scale-95"
-              style={{ transitionDuration: "0.1s" }}
-              src={Dimaak}
-              alt="dimaak"
+              style={{ transitionDuration: "0.1s", height: "499" }}
+              src={Xpertzy}
+              alt="xpertzy"
             />
-            <div className="flex items-center justify-between w-full px-2 my-2">
+            <div className="my-2 flex w-full items-center justify-between px-2">
               <h1 className="" style={{ fontFamily: "PolySans" }}>
-                Dimaak, 2023
+                Xpertzy, 2025-26
               </h1>
-              <div id="dimaak-arrow">
+              <div id="xpertzy-arrow">
                 <div className="flex items-center">
                   <h1 className="inline" style={{ fontFamily: "PolySans" }}>
                     View
@@ -72,20 +74,20 @@ function Work() {
         </a>
         <a href="https://github.com/subramanyaraju1112/Qoruz" target="_blank">
           <div
-            id="qoruz-container"
-            className="flex flex-col items-start cursor-pointer hover:scale-95"
+            id="c3iarena-container"
+            className="flex cursor-pointer flex-col items-start hover:scale-95"
             style={{ transitionDuration: "0.1s" }}>
             <img
               className="rounded-2xl "
               style={{ transitionDuration: "0.1s" }}
-              src={Qoruz}
-              alt="qoruz"
+              src={C3iArena}
+              alt="c3iarena"
             />
-            <div className="flex items-center justify-between w-full px-2 my-2">
+            <div className="my-2 flex w-full items-center justify-between px-2">
               <h1 className="" style={{ fontFamily: "PolySans" }}>
-                Qoruz, 2023
+                C3i Arena, 2025
               </h1>
-              <div id="qoruz-arrow">
+              <div id="c3i-arrow">
                 <div className="flex items-center">
                   <h1 className="inline" style={{ fontFamily: "PolySans" }}>
                     View
@@ -96,22 +98,22 @@ function Work() {
             </div>
           </div>
         </a>
-        <a href="https://github.com/subramanyaraju1112/netflix-replica-react" target="_blank">
+        <a href="https://doctor.ausa.health/" target="_blank">
           <div
-            id="netflix-container"
-            className="flex flex-col items-start cursor-pointer hover:scale-95"
+            className="flex cursor-pointer flex-col items-start hover:scale-95"
+            id="ausa-container"
             style={{ transitionDuration: "0.1s" }}>
             <img
               className="rounded-2xl hover:scale-95"
               style={{ transitionDuration: "0.1s" }}
-              src={Netflix}
-              alt="netflix-replica"
+              src={Ausa}
+              alt="ausa"
             />
-            <div className="flex items-center justify-between w-full px-2 my-2">
+            <div className="my-2 flex w-full items-center justify-between px-2">
               <h1 className="" style={{ fontFamily: "PolySans" }}>
-                Netflix Replica, 2023
+                AUSA Health, 2024
               </h1>
-              <div id="netflix-arrow">
+              <div id="ausa-arrow">
                 <div className="flex items-center">
                   <h1 className="inline" style={{ fontFamily: "PolySans" }}>
                     View
