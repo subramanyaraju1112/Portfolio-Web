@@ -33,7 +33,7 @@ function Work() {
             />
             <div className="my-2 flex w-full items-center justify-between px-2">
               <h1 className="" style={{ fontFamily: "PolySans" }}>
-                DDIA Security Dashboard, 2025-26
+                DDIA Admin, 2025-26
               </h1>
               <div id="ddia-arrow">
                 <div className="flex items-center">
