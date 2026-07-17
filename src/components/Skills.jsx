@@ -18,13 +18,21 @@ import {
 
 const skills = [
   { name: "React Js", logo: SiReact, color: "#61DAFB" },
-  { name: "Next Js", logo: SiNextdotjs, className: "text-black dark:text-white" },
+  {
+    name: "Next Js",
+    logo: SiNextdotjs,
+    className: "text-black dark:text-white",
+  },
   { name: "Tailwind CSS", logo: SiTailwindcss, color: "#06B6D4" },
   { name: "TypeScript", logo: SiTypescript, color: "#3178C6" },
   { name: "Redux", logo: SiRedux, color: "#764ABC" },
   { name: "TanStack", logo: SiReactquery, color: "#FF4154" },
   { name: "Node Js", logo: SiNodedotjs, color: "#339933" },
-  { name: "Express Js", logo: SiExpress, className: "text-black dark:text-white" },
+  {
+    name: "Express Js",
+    logo: SiExpress,
+    className: "text-black dark:text-white",
+  },
   { name: "Redis", logo: SiRedis, color: "#DC382D" },
   { name: "Mongo DB", logo: SiMongodb, color: "#47A248" },
   { name: "PostgreSQL", logo: SiPostgresql, color: "#4169E1" },
@@ -55,11 +63,12 @@ function Skills() {
               className={`h-16 w-16 ${skill.className || ""}`}
               style={skill.color ? { color: skill.color } : undefined}
             />
+
             <h2
               className="text-center"
               style={{
                 fontFamily: "PolySans",
-                fontSize: "1.1vw",
+                fontSize: "clamp(0.95rem, 1.1vw, 1.1vw)",
               }}>
               {skill.name}
             </h2>
