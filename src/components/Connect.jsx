@@ -17,8 +17,8 @@ function Connect() {
             letterSpacing: "-1px",
           }}>
           There’s no place like{" "}
-          <span className="text-[#FF8080]">localhost:3000</span>,<br /> Let's
-          build something special.
+          <span className="text-[#FF8080]">localhost:3000</span>,<br /> Where
+          every commit tells a story.
         </h1>
       </div>
       <div className="h-1/3">
@@ -29,8 +29,8 @@ function Connect() {
             fontSize: "4vw",
             letterSpacing: "-1px",
           }}>
-          I would love to change the world, but they won’t give me the source
-          code.
+          Frontend. Backend. One developer. <br />
+          Endless possibilities.
         </h1>
       </div>
       <div className="flex h-1/3 w-full flex-col items-end justify-around">
