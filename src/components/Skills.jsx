@@ -14,6 +14,7 @@ import {
   SiDocker,
   SiTailwindcss,
   SiReactquery,
+  SiNginx
 } from "react-icons/si";
 
 const skills = [
@@ -36,9 +37,10 @@ const skills = [
   { name: "Redis", logo: SiRedis, color: "#DC382D" },
   { name: "Mongo DB", logo: SiMongodb, color: "#47A248" },
   { name: "PostgreSQL", logo: SiPostgresql, color: "#4169E1" },
-  { name: "AWS", logo: SiAmazonaws, color: "#FF9900" },
   { name: "Git", logo: SiGit, color: "#F05032" },
   { name: "Docker", logo: SiDocker, color: "#2496ED" },
+  { name: "Nginx", logo: SiNginx, color: "#009639" },
+  { name: "AWS", logo: SiAmazonaws, color: "#FF9900" },
 ];
 
 function Skills() {
