@@ -4,6 +4,7 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiRedux,
+  SiTurborepo,
   SiNodedotjs,
   SiExpress,
   SiRedis,
@@ -28,6 +29,7 @@ const skills = [
   { name: "TypeScript", logo: SiTypescript, color: "#3178C6" },
   { name: "Redux", logo: SiRedux, color: "#764ABC" },
   { name: "TanStack", logo: SiReactquery, color: "#FF4154" },
+  { name: "TurboRepo", logo: SiTurborepo, color: "#3B82F6" },
   { name: "Node Js", logo: SiNodedotjs, color: "#339933" },
   {
     name: "Express Js",
